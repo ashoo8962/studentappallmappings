@@ -1,0 +1,13 @@
+#datasource specific properties
+
+spring:
+  datasource:
+    username: root
+    password: Ashlesha@123
+    url: jdbc:mysql://localhost:3306/studentapp
+#jpa properties
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
