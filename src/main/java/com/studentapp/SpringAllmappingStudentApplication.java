@@ -59,6 +59,11 @@ public class SpringAllmappingStudentApplication implements CommandLineRunner{
 		//save the object
 		studentService.addStudent(student1);
 		
+		StudentDto student2 = 
+				new StudentDto("Riya",null,address,bookDtos,classRoom,subjectDtos1,hobbies);
+		//save the object
+		studentService.addStudent(student2);
+		
 		
 		
 		
